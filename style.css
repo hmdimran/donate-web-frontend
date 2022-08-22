@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 .container {
@@ -17,7 +17,7 @@ body {
   background-size: cover;
   position: relative;
   width: 100%;
-  height: 669px;
+  height: 759px;
 }
 .content {
   padding: 174px;
@@ -60,6 +60,7 @@ body {
 }
 
 .section-head {
+  text-align: center;
 }
 .section-head h1 {
   font-size: 45px;
@@ -131,3 +132,58 @@ body {
   margin-top: 30px;
 }
 /* Amount Area Design (End) */
+
+/* Plan Area Desing (Start) */
+.plan-area {
+  margin-bottom: 120px;
+}
+.plans {
+  display: flex;
+}
+.single-plan {
+  width: 360px;
+  height: 352px;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+}
+.first-plan {
+  background: rgba(79, 157, 166, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(79, 157, 166, 0.1);
+}
+.middle-plan {
+  background: rgba(255, 89, 89, 0.1);
+  border: 1px solid #000000;
+  border-radius: 5px;
+}
+.third-plan {
+  background: #fff4d6;
+  border-radius: 5px;
+  border: 1px solid #fff4d6;
+}
+.single-plan img {
+  width: 50px;
+  height: 50px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.single-plan h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #121212;
+  margin-bottom: 16px;
+}
+.single-plan p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #707070;
+}
+/* Plan Area Desing (End) */
