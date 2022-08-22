@@ -187,3 +187,20 @@ body {
   color: #707070;
 }
 /* Plan Area Desing (End) */
+
+/* Footer Area Dsign (Start) */
+.footer {
+  padding: 43px;
+  text-align: center;
+  background: #0b0d17;
+}
+.footer h1 {
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+  margin-bottom: 24px;
+}
+.footer p {
+  font-size: 14px;
+  color: #d9dbe1;
+}
+/* Footer Area Dsign (End) */
