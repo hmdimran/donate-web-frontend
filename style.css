@@ -198,9 +198,45 @@ body {
   font-family: "Lobster", cursive;
   color: #ff5959;
   margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 44px;
 }
 .footer p {
   font-size: 14px;
   color: #d9dbe1;
 }
 /* Footer Area Dsign (End) */
+
+/* Subscriber Area Dsign (Start) */
+.subscribe-area {
+  margin-bottom: 120px;
+}
+.subscribe {
+  background: #fff4d6;
+  padding: 76px;
+  text-align: center;
+}
+.subscribe input[type="text"] {
+  padding: 14px;
+  font-size: 16px;
+  display: inline-block;
+  border: none;
+  outline: none;
+  width: 275px;
+  color: #aa9f9f;
+  background: #d9d9d9;
+  border-radius: 5px 0px 0px 5px;
+}
+.subscribe button {
+  font-size: 16px;
+  padding: 14px 43px;
+  display: inline-block;
+  border: none;
+  outline: none;
+  margin-left: -5px;
+  border-radius: 0px 5px 5px 0px;
+  background: #ff5959;
+  color: #ffffff;
+  cursor: pointer;
+}
+/* Subscriber Area Dsign (End) */ ;
