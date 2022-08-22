@@ -239,4 +239,44 @@ body {
   color: #ffffff;
   cursor: pointer;
 }
-/* Subscriber Area Dsign (End) */ ;
+/* Subscriber Area Dsign (End) */
+
+/* Donation Status Design (Start) */
+.donation-status {
+  margin-bottom: 100px;
+}
+.donation {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.single-donation {
+  width: 360px;
+  height: auto;
+  padding: 50px;
+  margin: 20px;
+}
+.first {
+  background: RGBA(102, 66, 247, 0.1);
+  box-shadow: 4px 4px 10px#d9d9d9;
+  border-radius: 10px;
+}
+.second {
+  background: RGBA(255, 58, 135, 0.1);
+  box-shadow: 4px 4px 10px #d9d9d9;
+  border-radius: 10px;
+}
+.third {
+  background: RGBA(255, 74, 80, 0.1);
+  box-shadow: 4px 4px 10px #d9d9d9;
+  border-radius: 10px;
+}
+.single-donation h3 {
+  font-size: 25px;
+  font-family: "Lobster", cursive;
+  color: #ff5959;
+}
+.single-donation h1 {
+  font-size: 50px;
+}
+/* Donation Status Design (End) */
