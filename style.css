@@ -280,3 +280,43 @@ body {
   font-size: 50px;
 }
 /* Donation Status Design (End) */
+
+/* Recent Donation Design (Start)*/
+.recent-area {
+  margin-bottom: 100px;
+}
+.recent-donate {
+  display: flex;
+  margin-bottom: 90px;
+}
+.single-recent-left {
+  padding: 20px;
+  width: 45%;
+  margin-right: 20px;
+}
+.single-recent-left h1 {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #121212;
+}
+.single-recent-left p {
+  color: #707070;
+  margin-bottom: 20px;
+}
+.single-recent-left a {
+  background-color: #ff5959;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 25px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+.single-recent-right img {
+  margin-right: 50px;
+}
+/* Recent Donation Design (End)*/
